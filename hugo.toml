@@ -1,6 +1,6 @@
 baseURL = "https://jpadams.github.io/"
 languageCode = "en-us"
-title = "Jeremy Adams"
+title = "Jeremy Adams - Tech Translator"
 theme = "PaperMod"
 
 [params]
