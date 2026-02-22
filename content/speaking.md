@@ -9,7 +9,7 @@ description: "Jeremy Adams — conference speaker on graph databases, cloud-nati
 
 I speak at developer conferences, meetups, and corporate events on topics spanning graph databases and AI, CI/CD pipelines, cloud-native development, and building developer ecosystems. Whether it's a keynote, workshop, panel, or podcast, I bring a practitioner's perspective grounded in real engineering and business impact.
 
-**[Connect on LinkedIn to discuss →](https://linkedin.com/in/jeremy-adams)**
+**[Connect on LinkedIn to discuss →](https://www.linkedin.com/in/jeremy-adams-pdx/)**
 
 ---
 
@@ -57,4 +57,4 @@ How to build thriving developer communities, partner programs, and technical ini
 
 ## Book Me
 
-I'm US-based and available for in-person and virtual events worldwide. To inquire about speaking, reach me on [LinkedIn](https://linkedin.com/in/jeremy-adams) or [GitHub](https://github.com/jpadams).
+I'm US-based and available for in-person and virtual events worldwide. To inquire about speaking, reach me on [LinkedIn](https://www.linkedin.com/in/jeremy-adams-pdx/) or [GitHub](https://github.com/jpadams).

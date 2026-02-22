@@ -60,7 +60,7 @@ Bachelor of Arts — Cognitive Science, emphasis in Computer Science
 
 ## Let's Connect
 
-- [LinkedIn](https://linkedin.com/in/jeremy-adams)
+- [LinkedIn](https://www.linkedin.com/in/jeremy-adams-pdx/)
 - [GitHub](https://github.com/jpadams)
 - [Speaking engagements →](/speaking/)
 - [Writing →](/writing/)

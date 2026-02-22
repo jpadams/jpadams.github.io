@@ -10,7 +10,7 @@ A selection of articles, blog posts, and technical writing from across my career
 ---
 
 ### The Math and the Graph Behind a Popular Match Game
-**Neo4j Developer Blog**
+**Neo4j Developer Blog · February 2026**
 
 Exploring the mathematical principles and graph theory powering a popular matching card game — a practical demonstration of how graphs model relationships in unexpected places.
 
@@ -18,35 +18,8 @@ Exploring the mathematical principles and graph theory powering a popular matchi
 
 ---
 
-### GitOps with GitHub Actions and Amazon EKS
-**Weaveworks Blog**
-
-A technical deep dive into GitOps patterns using GitHub Actions and Amazon EKS — bringing CI/CD and Kubernetes together for production-grade, declarative workflows.
-
-[Read on Weaveworks (archived) →](https://web.archive.org/web/20221225193929/https://www.weave.works/blog/gitops-with-github-actions-eks)
-
----
-
-### GitHub Enterprise Now Available from the AWS Marketplace
-**GitHub Blog**
-
-Announcing a major ecosystem partnership milestone: GitHub Enterprise available through the AWS Marketplace for enterprise customers, enabling simplified procurement via AWS consolidated billing.
-
-[Read on GitHub Blog →](https://github.blog/news-insights/product-news/github-enterprise-now-available-from-the-aws-marketplace/)
-
----
-
-### A Great Year in BD & Alliances at Twistlock
-**LinkedIn**
-
-A look back at building and scaling the partner and alliance ecosystem at Twistlock — key wins, lessons learned, and what actually drives ecosystem growth in cloud security.
-
-[Read on LinkedIn →](https://www.linkedin.com/pulse/great-year-bd-alliances-twistlock-jeremy-adams/)
-
----
-
 ### Container Use for Locally Sandboxed, Background Agents in Zed
-**Zed Blog**
+**Zed Blog · July 2025**
 
 How Container Use — an open source tool combining Dagger containers and Git Worktrees — enables isolated, parallel AI agents to run safely in the background alongside Zed's foreground agent capabilities.
 
@@ -55,7 +28,7 @@ How Container Use — an open source tool combining Dagger containers and Git Wo
 ---
 
 ### The Daggerverse in Practice
-**Dagger Blog**
+**Dagger Blog · 2024**
 
 A hands-on guide to the Daggerverse — Dagger's ecosystem of reusable modules — and how to put it to work in real CI/CD pipelines.
 
@@ -64,7 +37,7 @@ A hands-on guide to the Daggerverse — Dagger's ecosystem of reusable modules �
 ---
 
 ### Using Dockerfiles with Dagger
-**Dagger Blog**
+**Dagger Blog · 2023**
 
 How to bring existing Dockerfiles into Dagger workflows, enabling teams to incrementally adopt programmable pipelines without abandoning their current container build tooling.
 
@@ -72,17 +45,26 @@ How to bring existing Dockerfiles into Dagger workflows, enabling teams to incre
 
 ---
 
-### Integrating Container Image Scanning into CircleCI Builds with the Twistlock Orb
-**CircleCI Blog**
+### GitOps with GitHub Actions and Amazon EKS
+**Weaveworks Blog · 2021**
 
-How DevSecOps teams can use the Twistlock orb to automatically scan container images for vulnerabilities within CircleCI pipelines — catching security issues early without slowing down developer workflows.
+A technical deep dive into GitOps patterns using GitHub Actions and Amazon EKS — bringing CI/CD and Kubernetes together for production-grade, declarative workflows.
 
-[Read on CircleCI Blog →](https://circleci.com/blog/integrating-container-image-scanning-into-circleci-builds-with-the-twistlock-orb/)
+[Read on Weaveworks (archived) →](https://web.archive.org/web/20221225193929/https://www.weave.works/blog/gitops-with-github-actions-eks)
+
+---
+
+### GitHub Enterprise Now Available from the AWS Marketplace
+**GitHub Blog · December 2019**
+
+Announcing a major ecosystem partnership milestone: GitHub Enterprise available through the AWS Marketplace for enterprise customers, enabling simplified procurement via AWS consolidated billing.
+
+[Read on GitHub Blog →](https://github.blog/news-insights/product-news/github-enterprise-now-available-from-the-aws-marketplace/)
 
 ---
 
 ### CloudBees Core and Twistlock: DevSecOps for Container Images
-**CloudBees Blog**
+**CloudBees Blog · March 2019**
 
 Integrating Twistlock container security scanning into CloudBees Core on Kubernetes to automatically detect and block vulnerable Docker images before they reach production registries.
 
@@ -90,8 +72,26 @@ Integrating Twistlock container security scanning into CloudBees Core on Kuberne
 
 ---
 
+### Integrating Container Image Scanning into CircleCI Builds with the Twistlock Orb
+**CircleCI Blog · January 2019**
+
+How DevSecOps teams can use the Twistlock orb to automatically scan container images for vulnerabilities within CircleCI pipelines — catching security issues early without slowing down developer workflows.
+
+[Read on CircleCI Blog →](https://circleci.com/blog/integrating-container-image-scanning-into-circleci-builds-with-the-twistlock-orb/)
+
+---
+
+### A Great Year in BD & Alliances at Twistlock
+**LinkedIn · 2018**
+
+A look back at building and scaling the partner and alliance ecosystem at Twistlock — key wins, lessons learned, and what actually drives ecosystem growth in cloud security.
+
+[Read on LinkedIn →](https://www.linkedin.com/pulse/great-year-bd-alliances-twistlock-jeremy-adams/)
+
+---
+
 ### Puppet Automation Makes Cloud Management, Manageable
-**LinkedIn**
+**LinkedIn · 2017**
 
 How Puppet Enterprise and VMware vRealize Automation work together to enable self-service cloud provisioning with versioned infrastructure code and continuous compliance across multiple cloud platforms.
 
