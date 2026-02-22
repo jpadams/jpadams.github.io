@@ -1,10 +1,56 @@
 baseURL = "https://jpadams.github.io/"
 languageCode = "en-us"
-title = "Jeremy Adams - Tech Translator"
+title = "Jeremy Adams — Tech Translator"
 theme = "PaperMod"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [params]
   author = "Jeremy Adams"
-  ShowReadingTime = true
+  description = "Senior Developer Advocate at Neo4j. Speaker at KubeCon, CNCF, AWS & more. I translate complex tech into real developer impact."
+  ShowReadingTime = false
   ShowCodeCopyButtons = true
+  ShowBreadCrumbs = false
+  ShowShareButtons = false
+  ShowPostNavLinks = false
+
+  [params.homeInfoParams]
+    Title = "Jeremy Adams — Tech Translator"
+    Content = """
+Senior Developer Advocate at **Neo4j**. Formerly **Dagger · GitHub · Twistlock · Puppet · US Army**.
+
+I work at the intersection of data, developer tooling, and community — translating complex technology into real-world impact. Passionate about helping practitioners adopt graph databases, build thriving developer ecosystems, and tackle the hard, relationship-centric problems that matter.
+
+Available to speak at conferences, meetups, workshops, and podcasts. [See my talks →](/speaking/)
+"""
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/jeremy-adams"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/jpadams"
+
+[menu]
+  [[menu.main]]
+    identifier = "speaking"
+    name = "Speaking"
+    url = "/speaking/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "writing"
+    name = "Writing"
+    url = "/writing/"
+    weight = 30
 
