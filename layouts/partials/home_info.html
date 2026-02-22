@@ -14,3 +14,88 @@
     </footer>
 </article>
 {{- end -}}
+
+<section class="homepage-section">
+    <div class="section-header">
+        <h2 class="section-heading">Featured Talks</h2>
+        <a href="/speaking/" class="section-see-all">See all →</a>
+    </div>
+    <div class="carousel-wrapper">
+        <button class="carousel-btn" onclick="scrollCarousel(this,-1)" aria-label="Previous">&#8249;</button>
+        <div class="carousel-track">
+            <a class="carousel-card" href="https://www.youtube.com/watch?v=nBka0VrCWpE" target="_blank" rel="noopener noreferrer">
+                <div class="card-thumb">
+                    <img src="https://img.youtube.com/vi/nBka0VrCWpE/hqdefault.jpg" alt="KubeCon + CloudNativeCon Atlanta">
+                    <span class="card-play">▶</span>
+                </div>
+                <div class="card-body">
+                    <span class="card-tag">KubeCon + CloudNativeCon</span>
+                    <span class="card-link">Watch →</span>
+                </div>
+            </a>
+            <a class="carousel-card" href="https://www.youtube.com/watch?v=IdLXeK8motg" target="_blank" rel="noopener noreferrer">
+                <div class="card-thumb">
+                    <img src="https://img.youtube.com/vi/IdLXeK8motg/hqdefault.jpg" alt="BackstageCon">
+                    <span class="card-play">▶</span>
+                </div>
+                <div class="card-body">
+                    <span class="card-tag">BackstageCon</span>
+                    <span class="card-link">Watch →</span>
+                </div>
+            </a>
+            <a class="carousel-card" href="https://www.youtube.com/watch?v=4JTSvn-OcDE" target="_blank" rel="noopener noreferrer">
+                <div class="card-thumb">
+                    <img src="https://img.youtube.com/vi/4JTSvn-OcDE/hqdefault.jpg" alt="CNCF AppDeveloperCon Salt Lake City">
+                    <span class="card-play">▶</span>
+                </div>
+                <div class="card-body">
+                    <span class="card-tag">CNCF AppDeveloperCon</span>
+                    <span class="card-link">Watch →</span>
+                </div>
+            </a>
+        </div>
+        <button class="carousel-btn" onclick="scrollCarousel(this,1)" aria-label="Next">&#8250;</button>
+    </div>
+</section>
+
+<section class="homepage-section">
+    <div class="section-header">
+        <h2 class="section-heading">Recent Writing</h2>
+        <a href="/writing/" class="section-see-all">See all →</a>
+    </div>
+    <div class="carousel-wrapper">
+        <button class="carousel-btn" onclick="scrollCarousel(this,-1)" aria-label="Previous">&#8249;</button>
+        <div class="carousel-track">
+            <a class="carousel-card writing-card" href="https://neo4j.com/blog/developer/the-math-and-the-graph-behind-a-popular-match-game/" target="_blank" rel="noopener noreferrer">
+                <div class="card-body">
+                    <span class="card-tag">Neo4j · Feb 2026</span>
+                    <p class="card-title">The Math and the Graph Behind a Popular Match Game</p>
+                    <span class="card-link">Read →</span>
+                </div>
+            </a>
+            <a class="carousel-card writing-card" href="https://zed.dev/blog/container-use-background-agents" target="_blank" rel="noopener noreferrer">
+                <div class="card-body">
+                    <span class="card-tag">Zed · Jul 2025</span>
+                    <p class="card-title">Container Use for Locally Sandboxed, Background Agents in Zed</p>
+                    <span class="card-link">Read →</span>
+                </div>
+            </a>
+            <a class="carousel-card writing-card" href="https://dagger.io/blog/daggerverse-in-practice" target="_blank" rel="noopener noreferrer">
+                <div class="card-body">
+                    <span class="card-tag">Dagger · 2024</span>
+                    <p class="card-title">The Daggerverse in Practice</p>
+                    <span class="card-link">Read →</span>
+                </div>
+            </a>
+        </div>
+        <button class="carousel-btn" onclick="scrollCarousel(this,1)" aria-label="Next">&#8250;</button>
+    </div>
+</section>
+
+<script>
+function scrollCarousel(btn, dir) {
+    const track = btn.closest('.carousel-wrapper').querySelector('.carousel-track');
+    const card = track.querySelector('.carousel-card');
+    track.scrollBy({ left: dir * (card.offsetWidth + 16), behavior: 'smooth' });
+}
+</script>
