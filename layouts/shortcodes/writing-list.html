@@ -1,0 +1,14 @@
+{{ range $i, $item := site.Data.writing }}
+{{ if $i }}<hr>{{ end }}
+<a class="writing-img-link" href="{{ $item.url }}" target="_blank" rel="noopener noreferrer">
+{{ if $item.image -}}
+<img class="writing-img" src="{{ $item.image }}" alt="{{ $item.title }}">
+{{- else -}}
+<div class="writing-img writing-img-fallback">{{ $item.fallback }}</div>
+{{- end }}
+</a>
+<h3>{{ $item.title }}</h3>
+<p><strong>{{ $item.tag }}</strong></p>
+<p>{{ $item.description }}</p>
+<p><a href="{{ $item.url }}" target="_blank" rel="noopener noreferrer">{{ $item.link_text }} →</a></p>
+{{ end }}
