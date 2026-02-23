@@ -1,10 +1,23 @@
+/* ── Header ── */
+.header {
+    background: #edf0f2;
+}
+
+html[data-theme="dark"] .header {
+    background: rgb(18, 19, 21);
+}
+
+.logo a {
+    font-size: 48px;
+}
+
 /* ── Hero image ── */
 .hero-image-wrapper {
     width: 100%;
     max-height: 200px;
     overflow: hidden;
     border-radius: 8px;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .hero-image {
@@ -15,9 +28,20 @@
     display: block;
 }
 
+/* ── Home info article: remove enforced min-height/centering ── */
+.first-entry.home-info {
+    min-height: unset;
+    justify-content: flex-start;
+    padding: 0;
+}
+
+.first-entry.home-info .entry-content {
+    margin: 0 0 0.5rem;
+}
+
 /* ── Homepage sections ── */
 .homepage-section {
-    margin: 2.5rem 0;
+    margin: 1.25rem 0;
 }
 
 .section-header {
@@ -195,9 +219,15 @@
 }
 
 /* ── Nav social icons ── */
+.nav-social-icon {
+    display: flex;
+    align-items: center;
+}
+
 .nav-social-icon a {
     display: flex;
     align-items: center;
+    line-height: 0;
     color: var(--primary);
 }
 

@@ -1,6 +1,6 @@
 baseURL = "https://jpadams.github.io/"
 languageCode = "en-us"
-title = "Jeremy Adams — Tech Translator"
+title = "Jeremy Adams"
 theme = "PaperMod"
 
 [markup]
@@ -18,8 +18,10 @@ theme = "PaperMod"
   ShowPostNavLinks = false
 
   [params.homeInfoParams]
-    Title = "Jeremy Adams — Tech Translator"
+    Title = "Jeremy Adams"
     Content = """
+## Tech Translator
+
 Senior Developer Advocate at **Neo4j**. Formerly **Dagger · GitHub · Twistlock · Puppet · US Army**.
 
 I work at the intersection of data, developer tooling, and community — translating complex technology into real-world impact. Passionate about helping practitioners adopt graph databases, build thriving developer ecosystems, and tackle the hard, relationship-centric problems that matter.
@@ -28,12 +30,12 @@ Available to speak at conferences, meetups, workshops, and podcasts. [See my tal
 """
 
   [[params.socialIcons]]
-    name = "linkedin"
-    url = "https://www.linkedin.com/in/jeremy-adams-pdx/"
-
-  [[params.socialIcons]]
     name = "github"
     url = "https://github.com/jpadams"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/jeremy-adams-pdx/"
 
 [menu]
   [[menu.main]]
