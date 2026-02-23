@@ -23,7 +23,7 @@ Exploring the mathematical principles and graph theory powering a popular matchi
 ---
 
 <a class="writing-img-link" href="https://zed.dev/blog/container-use-background-agents" target="_blank" rel="noopener noreferrer">
-<div class="writing-img writing-img-fallback">Zed</div>
+<img class="writing-img" src="/zed-what-is-container-use.webp" alt="Container Use Background Agents in Zed">
 </a>
 
 ### Container Use for Locally Sandboxed, Background Agents in Zed
@@ -36,7 +36,7 @@ How Container Use — an open source tool combining Dagger containers and Git Wo
 ---
 
 <a class="writing-img-link" href="https://dagger.io/blog/daggerverse-in-practice" target="_blank" rel="noopener noreferrer">
-<div class="writing-img writing-img-fallback">Dagger</div>
+<img class="writing-img" src="/dagger-daggerverse-in-practice.avif" alt="Ecosystem of Reusable Dagger Modules">
 </a>
 
 ### The Daggerverse in Practice
