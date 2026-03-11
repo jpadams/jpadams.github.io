@@ -16,7 +16,6 @@
         <a href="/speaking/" class="section-see-all">See all →</a>
     </div>
     <div class="carousel-wrapper">
-        <button class="carousel-btn" onclick="scrollCarousel(this,-1)" aria-label="Previous">&#8249;</button>
         <div class="carousel-track">
             <a class="carousel-card" href="https://www.youtube.com/watch?v=nBka0VrCWpE" target="_blank" rel="noopener noreferrer">
                 <div class="card-thumb">
@@ -28,13 +27,13 @@
                     <span class="card-link">Watch →</span>
                 </div>
             </a>
-            <a class="carousel-card" href="https://www.youtube.com/watch?v=IdLXeK8motg" target="_blank" rel="noopener noreferrer">
+            <a class="carousel-card" href="https://www.youtube.com/watch?v=Fzb1a24hF-o&t=4690s" target="_blank" rel="noopener noreferrer">
                 <div class="card-thumb">
-                    <img src="https://img.youtube.com/vi/IdLXeK8motg/hqdefault.jpg" alt="BackstageCon">
+                    <img src="https://img.youtube.com/vi/Fzb1a24hF-o/hqdefault.jpg" alt="Ship Agents that Ship: A Hands-On Workshop">
                     <span class="card-play">▶</span>
                 </div>
                 <div class="card-body">
-                    <span class="card-tag">BackstageCon</span>
+                    <span class="card-tag">AIEWF</span>
                     <span class="card-link">Watch →</span>
                 </div>
             </a>
@@ -48,8 +47,17 @@
                     <span class="card-link">Watch →</span>
                 </div>
             </a>
+            <a class="carousel-card" href="https://www.youtube.com/watch?v=S9BNa4Hn4-0" target="_blank" rel="noopener noreferrer">
+                <div class="card-thumb">
+                    <img src="https://img.youtube.com/vi/S9BNa4Hn4-0/hqdefault.jpg" alt="AWS Containers from the Couch">
+                    <span class="card-play">▶</span>
+                </div>
+                <div class="card-body">
+                    <span class="card-tag">AWS</span>
+                    <span class="card-link">Watch →</span>
+                </div>
+            </a>
         </div>
-        <button class="carousel-btn" onclick="scrollCarousel(this,1)" aria-label="Next">&#8250;</button>
     </div>
 </section>
 
@@ -59,9 +67,8 @@
         <a href="/writing/" class="section-see-all">See all →</a>
     </div>
     <div class="carousel-wrapper">
-        <button class="carousel-btn" onclick="scrollCarousel(this,-1)" aria-label="Previous">&#8249;</button>
         <div class="carousel-track">
-            {{ range first 3 site.Data.writing }}
+            {{ range first 4 site.Data.writing }}
             <a class="carousel-card" href="{{ .url }}" target="_blank" rel="noopener noreferrer">
                 {{ if .image }}
                 <div class="card-thumb">
@@ -80,14 +87,5 @@
             </a>
             {{ end }}
         </div>
-        <button class="carousel-btn" onclick="scrollCarousel(this,1)" aria-label="Next">&#8250;</button>
     </div>
 </section>
-
-<script>
-function scrollCarousel(btn, dir) {
-    const track = btn.closest('.carousel-wrapper').querySelector('.carousel-track');
-    const card = track.querySelector('.carousel-card');
-    track.scrollBy({ left: dir * (card.offsetWidth + 16), behavior: 'smooth' });
-}
-</script>
