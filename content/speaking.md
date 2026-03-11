@@ -55,6 +55,12 @@ How to build thriving developer communities, partner programs, and technical ini
 
 ---
 
+### Ship Agents that Ship: A Hands-On Workshop — Dagger
+
+{{< youtube Fzb1a24hF-o >}}
+
+---
+
 ## Book Me
 
 I'm US-based and available for in-person and virtual events worldwide. To inquire about speaking, reach me on [LinkedIn](https://www.linkedin.com/in/jeremy-adams-pdx/) or [GitHub](https://github.com/jpadams).
