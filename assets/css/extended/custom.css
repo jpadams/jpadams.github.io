@@ -206,7 +206,8 @@ html[data-theme="dark"] .header {
     font-size: 0.8rem;
     font-weight: 700;
     color: var(--secondary);
-    margin-top: 0.25rem;
+    margin-top: auto;
+    padding-top: 0.25rem;
 }
 
 .carousel-card:hover .card-link {
