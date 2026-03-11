@@ -37,6 +37,14 @@ Available to speak at conferences, meetups, workshops, and podcasts. [See my tal
     name = "linkedin"
     url = "https://www.linkedin.com/in/jeremy-adams-pdx/"
 
+  [[params.socialIcons]]
+    name = "twitter"
+    url = "https://x.com/jpadamspdx"
+
+  [[params.socialIcons]]
+    name = "bluesky"
+    url = "https://bsky.app/profile/jeremyadams.bsky.social"
+
 [menu]
   [[menu.main]]
     identifier = "speaking"
