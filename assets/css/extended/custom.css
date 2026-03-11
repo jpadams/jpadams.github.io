@@ -213,6 +213,11 @@ html[data-theme="dark"] .header {
     color: var(--primary);
 }
 
+/* ── Nav menu indent ── */
+#menu {
+    padding-left: 0.25rem;
+}
+
 /* ── Nav social icons ── */
 .nav-social-icon {
     display: flex;
