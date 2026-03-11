@@ -26,6 +26,7 @@
   url: "https://dagger.io/blog/dockerfiles-with-dagger"
   tag: "Dagger · 2023"
   fallback: "Dagger"
+  image: "/dagger-dockerfile.png"
   description: "How to bring existing Dockerfiles into Dagger workflows, enabling teams to incrementally adopt programmable pipelines without abandoning their current container build tooling."
   link_text: "Read on Dagger Blog"
 
