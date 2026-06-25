@@ -1,6 +1,14 @@
+- title: "Diving into the AI iceberg: What lies beneath your AI agents"
+  url: "https://temporal.io/blog/diving-into-ai-iceberg-what-lies-beneath-ai-agents#neo4j-the-knowledge-graph-and-memory"
+  tag: "Temporal · 2026"
+  fallback: "Iceberg guest contribution on Temporal blog"
+  image: "/iceberg.png"
+  description: "Joint blog post based on a project and demo series between Temporal, Neo4j, RedPanda, and Okta to demonstrate the tech that powers AI agents running in production below the UI."
+  link_text: "Read on Temporal Blog"
+
 - title: "The Math and the Graph Behind a Popular Match Game"
   url: "https://neo4j.com/blog/developer/the-math-and-the-graph-behind-a-popular-match-game/"
-  tag: "Neo4j · Feb 2026"
+  tag: "Neo4j · 2026"
   fallback: "Neo4j"
   image: "https://dist.neo4j.com/wp-content/uploads/20260212091650/ChatGPT-Image-Feb-3-2026-07_39_25-PM.png"
   description: "Exploring the mathematical principles and graph theory powering a popular matching card game — a practical demonstration of how graphs model relationships in unexpected places."
@@ -8,7 +16,7 @@
 
 - title: "Container Use for Locally Sandboxed, Background Agents in Zed"
   url: "https://zed.dev/blog/container-use-background-agents"
-  tag: "Zed · Jul 2025"
+  tag: "Zed · 2025"
   fallback: "Zed"
   image: "/zed-what-is-container-use.webp"
   description: "How Container Use — an open source tool combining Dagger containers and Git Worktrees — enables isolated, parallel AI agents to run safely in the background alongside Zed's foreground agent capabilities."
@@ -39,7 +47,8 @@
 
 - title: "GitHub Enterprise Now Available from the AWS Marketplace"
   url: "https://github.blog/news-insights/product-news/github-enterprise-now-available-from-the-aws-marketplace/"
-  tag: "GitHub · Dec 2019"
+  tag: "GitHub · 2019"
+
   fallback: "GitHub"
   image: "https://github.blog/wp-content/uploads/2019/03/company-twitter.png?fit=1201%2C630"
   description: "Announcing a major ecosystem partnership milestone: GitHub Enterprise available through the AWS Marketplace for enterprise customers, enabling simplified procurement via AWS consolidated billing."
@@ -47,14 +56,14 @@
 
 - title: "CloudBees Core and Twistlock: DevSecOps for Container Images"
   url: "https://www.cloudbees.com/blog/cloudbees-core-and-twistlock-devsecops-container-images"
-  tag: "CloudBees · Mar 2019"
+  tag: "CloudBees · 2019"
   fallback: "CloudBees"
   description: "Integrating Twistlock container security scanning into CloudBees Core on Kubernetes to automatically detect and block vulnerable Docker images before they reach production registries."
   link_text: "Read on CloudBees Blog"
 
 - title: "Integrating Container Image Scanning into CircleCI Builds with the Twistlock Orb"
   url: "https://circleci.com/blog/integrating-container-image-scanning-into-circleci-builds-with-the-twistlock-orb/"
-  tag: "CircleCI · Jan 2019"
+  tag: "CircleCI · 2019"
   fallback: "CircleCI"
   image: "https://images.ctfassets.net/il1yandlcjgk/45PA6DDhlhTlOdmqfDwiAk/186f7cf9a55d523d4385b2d2dd1682e2/Default-Abstract-GreenBG-v2.jpg"
   description: "How DevSecOps teams can use the Twistlock orb to automatically scan container images for vulnerabilities within CircleCI pipelines — catching security issues early without slowing down developer workflows."
