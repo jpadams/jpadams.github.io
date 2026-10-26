@@ -31,6 +31,24 @@ How to build thriving developer communities, partner programs, and technical ini
 
 ## Past Talks
 
+### Devoxx Belgium — October 8, 2026
+
+{{< youtube oey2TbFvfWE >}}
+
+---
+
+### The AI Conference — October 1, 2026
+
+{{< youtube g1tDyIWQPJw >}}
+
+---
+
+### AI Engineer World's Fair — July 2, 2026
+
+{{< youtube oUZEt4EiPbk >}}
+
+---
+
 ### KubeCon + CloudNativeCon — Atlanta
 
 {{< youtube nBka0VrCWpE >}}

@@ -1,6 +1,7 @@
 {{- with site.Params.homeInfoParams }}
 <div class="hero-image-wrapper">
     <img src="/jeremy_at_booth.jpeg" alt="Jeremy Adams talking with developers at a conference" class="hero-image">
+    <img src="/aiewf-speaker-2025-2026.png" alt="AI Engineer World's Fair Speaker 2025 and 2026" class="aiewf-badge">
     <img src="/speaker-kubecon-cloudnativecon-north-america-2025.png" alt="KubeCon + CloudNativeCon North America 2025 Speaker" class="kubecon-badge">
 </div>
 <article class="first-entry home-info">
@@ -17,6 +18,36 @@
     </div>
     <div class="carousel-wrapper">
         <div class="carousel-track">
+            <a class="carousel-card" href="https://www.youtube.com/watch?v=oey2TbFvfWE" target="_blank" rel="noopener noreferrer">
+                <div class="card-thumb">
+                    <img src="https://img.youtube.com/vi/oey2TbFvfWE/hqdefault.jpg" alt="Devoxx Belgium">
+                    <span class="card-play">▶</span>
+                </div>
+                <div class="card-body">
+                    <span class="card-tag">Devoxx Belgium</span>
+                    <span class="card-link">Watch →</span>
+                </div>
+            </a>
+            <a class="carousel-card" href="https://www.youtube.com/watch?v=g1tDyIWQPJw" target="_blank" rel="noopener noreferrer">
+                <div class="card-thumb">
+                    <img src="https://img.youtube.com/vi/g1tDyIWQPJw/hqdefault.jpg" alt="The AI Conference">
+                    <span class="card-play">▶</span>
+                </div>
+                <div class="card-body">
+                    <span class="card-tag">The AI Conference</span>
+                    <span class="card-link">Watch →</span>
+                </div>
+            </a>
+            <a class="carousel-card" href="https://www.youtube.com/watch?v=oUZEt4EiPbk" target="_blank" rel="noopener noreferrer">
+                <div class="card-thumb">
+                    <img src="https://img.youtube.com/vi/oUZEt4EiPbk/hqdefault.jpg" alt="AI Engineer World's Fair">
+                    <span class="card-play">▶</span>
+                </div>
+                <div class="card-body">
+                    <span class="card-tag">AIEWF</span>
+                    <span class="card-link">Watch →</span>
+                </div>
+            </a>
             <a class="carousel-card" href="https://www.youtube.com/watch?v=nBka0VrCWpE" target="_blank" rel="noopener noreferrer">
                 <div class="card-thumb">
                     <img src="https://img.youtube.com/vi/nBka0VrCWpE/hqdefault.jpg" alt="KubeCon + CloudNativeCon Atlanta">
@@ -34,6 +65,16 @@
                 </div>
                 <div class="card-body">
                     <span class="card-tag">AIEWF</span>
+                    <span class="card-link">Watch →</span>
+                </div>
+            </a>
+            <a class="carousel-card" href="https://www.youtube.com/watch?v=IdLXeK8motg" target="_blank" rel="noopener noreferrer">
+                <div class="card-thumb">
+                    <img src="https://img.youtube.com/vi/IdLXeK8motg/hqdefault.jpg" alt="BackstageCon">
+                    <span class="card-play">▶</span>
+                </div>
+                <div class="card-body">
+                    <span class="card-tag">BackstageCon</span>
                     <span class="card-link">Watch →</span>
                 </div>
             </a>
@@ -63,12 +104,12 @@
 
 <section class="homepage-section">
     <div class="section-header">
-        <h2 class="section-heading">Recent Writing</h2>
+        <h2 class="section-heading">Selected Writing</h2>
         <a href="/writing/" class="section-see-all">See all →</a>
     </div>
     <div class="carousel-wrapper">
         <div class="carousel-track">
-            {{ range first 4 site.Data.writing }}
+            {{ range first 8 site.Data.writing }}
             <a class="carousel-card" href="{{ .url }}" target="_blank" rel="noopener noreferrer">
                 {{ if .image }}
                 <div class="card-thumb">
