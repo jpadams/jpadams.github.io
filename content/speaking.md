@@ -16,7 +16,10 @@ I speak at developer conferences, meetups, and corporate events on topics spanni
 ## Topics
 
 ### Graph Databases & Knowledge Graphs
-How graph databases unlock relationship-centric insights — from fraud detection and recommendation engines to AI knowledge graphs and retrieval-augmented generation (RAG). Real patterns, real queries, real impact.
+How graph databases unlock relationship-centric insights — from fraud detection and recommendation engines to AI knowledge graphs and retrieval-augmented generation (RAG and GraphRAG). Real patterns, real queries, real impact.
+
+### AI Agents & Applications
+Building AI Agents using frameworks like LangChain/LangGraph, Pydantic AI, AWS Strands and others. Creating MCP servers and clients. Connecting Agents to sources of context like relational, vector, and graph databases. Creating plugins for coding agents.
 
 ### CI/CD & Developer Pipelines
 Modern approaches to continuous integration and delivery, including GitHub Actions, GitOps with Kubernetes, and programmable pipelines with Dagger. Moving from scripts to systems.
