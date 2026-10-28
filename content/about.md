@@ -2,12 +2,12 @@
 title: "About"
 layout: "page"
 url: "/about/"
-description: "Jeremy Adams — Senior Developer Advocate at Neo4j, tech translator, and conference speaker."
+description: "Jeremy Adams — Senior Developer Advocate at Neo4j, tech translator, and conference speaker. I'm often the cross-functional glue in complex projects or ecosystems. Often taking a leading role in Ecosystem, DevRel, or Tech Partnerships functions."
 ---
 
 ## Hi, I'm Jeremy
 
-I'm a Senior Developer Advocate at **Neo4j**, where I work at the intersection of data, developer tooling, and community engagement. With a background spanning hands-on engineering, technical business development, and developer relations, I focus on helping practitioners adopt graph technologies to solve real-world relationship-centric problems.
+I'm a Senior Developer Advocate at **Neo4j**, where I work at the intersection of data, developer tooling, and community engagement. With a background spanning hands-on engineering, technical business development, sales engineering, and developer relations, I focus on helping practitioners adopt graph technologies to solve real-world relationship-centric problems.
 
 **Jeremy Adams — Casañas** (he/him). Self-described tech translator: I make complex technology accessible and actionable for developers and technical leaders alike.
 
@@ -20,16 +20,16 @@ I'm a Senior Developer Advocate at **Neo4j**, where I work at the intersection o
 ### Neo4j — Senior Developer Advocate
 
 - Developer advocacy at the intersection of graph databases, knowledge graphs, and AI-powered applications
-- Technical content for practitioners, including *[The Math and the Graph Behind a Popular Match Game](https://neo4j.com/blog/developer/the-math-and-the-graph-behind-a-popular-match-game/)* (Neo4j Developer Blog)
-- Conference speaker: KubeCon + CloudNativeCon (Atlanta), BackstageCon, CNCF AppDeveloperCon (Salt Lake City)
+- Technical content for practitioners including [hackathon sample repos](https://github.com/jpadams/video-context-graph) and [articles on the Neo4j Developer Blog](https://neo4j.com/blog/contributor/jeremy-adams/).
+- Conference speaker: AIE World's Fair, AGNTcon+MCPcon, MCP Community Connect, The AI Conference, Devoxx Belgium, KubeCon + CloudNativeCon (Atlanta), BackstageCon, CNCF AppDeveloperCon (Salt Lake City)
 
-### Dagger — Ecosystem & Developer Relations
+### Dagger — Ecosystem & Developer Relations - Reported to CEO
 
 - Led developer relations and ecosystem initiatives for Dagger, a programmable CI/CD platform built for developers
 - Built developer community programs and partner ecosystem from the ground up
 - Drove adoption through technical content, integrations, and hands-on community engagement
 
-### GitHub — Developer Relations & Business Development
+### GitHub — Developer Relations & Business Development - Reported to COO
 
 - Developer relations for **GitHub Actions**, GitHub's CI/CD automation platform — now the most widely-used CI/CD system in the world
 - Co-launched **[GitHub Enterprise on the AWS Marketplace](https://github.blog/news-insights/product-news/github-enterprise-now-available-from-the-aws-marketplace/)**, opening a major enterprise procurement channel and partnership milestone
